@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Navbar</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <h1 class="bg-blue-50 text-blue-500">Hello</h1>
+<body class="bg-bg-main">
+    <div class="lg:px-32 md:px-4 sm:px-3 p-5">
+        <div class="flex items-center justify-between">
+            <span class="text-3xl font-bold text-white font-instrument-sans">CineRates</span>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+        
+            <ul id="menu" class="md:flex md:items-center hidden absolute bg-black md:bg-transparent w-full md:w-auto left-0 md:static top-20 md:top-0 z-[-1] md:z-auto">
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#" class="font-instrument-sans text-xl hover:text-blue-400 duration-500 text-white font-semibold">Home</a>
+                </li>
+
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#" class="font-instrument-sans text-xl hover:text-blue-400 duration-500 text-white font-semibold">Top Films</a>
+                </li>
+
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#" class="font-instrument-sans text-xl hover:text-blue-400 duration-500 text-white font-semibold">Trending</a>
+                </li>
+
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="#" class="font-instrument-sans text-xl hover:text-blue-400 duration-500 text-white font-semibold">Box Office</a>
+                </li>
+
+                <li class="mx-4 my-6 md:my-0">
+                    <button class="text-l bg-blue-400 mx-4 font-instrument-sans text-white font-semibold duration-500 px-6 py-2 hover:bg-cyan-500 rounded">
+                        Get Started
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
