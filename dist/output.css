@@ -1065,6 +1065,10 @@ video {
     gap: 100px;
   }
 
+  .md\:gap-\[101px\]{
+    gap: 101px;
+  }
+
   .md\:bg-transparent{
     background-color: transparent;
   }
