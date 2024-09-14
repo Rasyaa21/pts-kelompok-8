@@ -10,12 +10,23 @@ module.exports = {
         'bg-main' : '#00006b',
         'white': '#ffffff',
         'white-grayish' : '#F4F4F4',
+        'sea-blue' : '1494EF',
       },
   
     fontFamily : {
       'instrument-sans' : ['Instrument Sans']
     },
+
+    keyframes: {
+      'slide-down': {
+        '0%': { transform: 'translateY(-100%)', opacity: '0' },
+        '100%': { transform: 'translateY(0)', opacity: '1' },
+      },
+  },
+
+  animation: {
+    'slide-down': 'slide-down 0.5s ease-out forwards',
   },
 },
   plugins: [],
-}
+}}

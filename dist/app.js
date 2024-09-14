@@ -6,4 +6,5 @@ console.log("js init")
 
 menuBtn.addEventListener('click', () => {
     menu.classList.toggle('hidden');
+    menu.classList.toggle("animate-slide-down");
 });
