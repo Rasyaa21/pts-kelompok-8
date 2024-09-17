@@ -36,6 +36,6 @@ document.getElementById('deadpool').addEventListener('click', () => {
 })
 
 document.getElementById('spiderman').addEventListener('click', () => {
-    window.location.href = "https://www.youtube.com/watch?v=JfVOs4VSpmA";
+    window.location.href = "https://www.youtube.com/watch?v=rk-dF1lIbIg";
 })
 
