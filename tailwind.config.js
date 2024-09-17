@@ -10,7 +10,8 @@ module.exports = {
         'bg-main' : '#00006b',
         'white': '#ffffff',
         'white-grayish' : '#F4F4F4',
-        'sea-blue' : '1494EF',
+        'sea-blue' : '#1494EF',
+        'secondary' : '#1393ee'
       },
   
     fontFamily : {
